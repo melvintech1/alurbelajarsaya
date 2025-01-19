@@ -32,6 +32,7 @@
 // 5. querySelector()
 // 6. querySelectorAll()
 
+document.getElementsByClassName("h1").innerHTML = "AKU MELVIN";
 
 
 
