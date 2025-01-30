@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+  </style>
+</head>
+<body>
+
+  <h1>Expense Tracker</h1>
+  <input type="text" id="expenseInput" placeholder="Enter expense name">
+  <input type="number" id="amountInput" placeholder="Enter amount">
+  <button onclick="addExpense()">Add Expense</button>
+  
+  <h3>Expenses:</h3>
+  <ul id="expenseList"></ul>
+  <p>Total: $<span id="totalAmount">0</span></p>
+
+  <script>
+    let totalAmount = 0;
+
+    function addExpense() {
+      const expenseName = document.getElementById("expenseInput").value;
+      const amount = parseFloat(document.getElementById("amountInput").value);
+
+      if (!expenseName || isNaN(amount) || amount <= 0) {
+        alert("Please enter a valid expense and amount!");
+        return;
+      }
+
+      const expenseList = document.getElementById("expenseList");
+
+      const li = document.createElement("li");
+      li.textContent = `${expenseName}: $${amount}`;
+
+      expenseList.appendChild(li);
+
+      totalAmount += amount;
+      document.getElementById("totalAmount").textContent = totalAmount.toFixed(2);
+
+      document.getElementById("expenseInput").value = "";
+      document.getElementById("amountInput").value = "";
+    }
+  </script>
+
+</body>
+</html>

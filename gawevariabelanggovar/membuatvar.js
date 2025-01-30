@@ -1,0 +1,63 @@
+var a = 9;
+var b = 0;
+var cecilion = "kamu adalah manusia";
+var hangus = "kamu adalah manusia terbaik dan baru";
+var buang = "hari pertama dan cari terbaik nama kamu bisa di cari di hari ini makan di bagi di";
+var kakung = "hari pertam kamu bisa melihat aku";
+var hari ;
+hari = 94949;
+
+var pelem = 3 + 98;
+
+console.log(pelem);
+var pelajar = 4 + 848;
+console.log(pelajar);
+var pelajar2 = "hari ";
+var komputer = true ;
+var komputer2 = false ;
+var belanja =  true ;
+var jahit = "belaja bersama";
+var hajar = "salsa";
+document.getElementsByClassName("belajar, pelajar, gak, tidak, kamu ");
+const kambing = 39394;
+const kuda = 993448;
+let sapi = kuda + kambing;
+let nama = "sapii";
+let seratuRibu = 9393;
+let seratusRibu = 494949;
+const bangun = 49494;
+const banguN = 9494;
+const halosemuadancaradikalidimana = 399394;
+document.getElementById("kamu").innerHTML = "kamu adalah manusia terbaik dan baru";
+let variabelbanyak = 4949; bealj = "kamu adalah nama aku belajar"; 
+let dja;
+let deja = 494 + 949;
+var belajar = "pealajr pemula dan cara mendapatkan naam baru";
+var bar = " pelaaj pemula dan";
+var makan = "aku adalah melvin";
+var makan = "baru tau kamu adalah nama aku dan cari nama";
+const baru = 4949;
+var kamu = "kamu adalah nama aku dan cara di perbarui kamu adalah nama";
+var bangga = "kamu adalah nama aku bealar dan di kami bisa makan";
+let melvin = 3 + 9 + 0 + 77 + 88 + 994474 + 9383 + 9887 + 9977 + 899 ;
+{
+  const baru = " belajar sampai tau dunia seperti apa dan cari tau di mana para ahli bisa";
+  const malam = 934933;
+  const hari = 303039;
+  const pulang = 303030; 
+  const kurang = 3039483;
+  const banjir = "lewat dana pada akhir ini belajar dan cara";
+  const banyu = "belaja";
+
+}
+let kali1 = 99393;
+let kali2 = 934943;
+let kali3 = 939394;
+let kali4 = 93939;
+let kali5 = 9399393;
+let hasil = 93939;
+let salsasza = 93939;
+let asu = "kamu adalah manusia yang ada d isini";
+let asu3 = "kamu adalah manusia di sini belajar";
+let asu4 = 3 +3 + 3 + 3403 + 33 - 3939 - 33939 - 3838 -93939 + 9393 + 39399 + 393939 ;
+let asu5 = asu4;
